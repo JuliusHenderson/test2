@@ -1,0 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+
+#top{
+    border: 1px solid black;
+    display: flex;
+    height: 150px;
+}
+#top section{
+    border: 1px solid blue;
+    width: 33%;
+}
+#banner{
+    background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enUS/Images/sportswear-SS23-global-launch-hp-masthead-primary-d_tcm221-984109.jpg);
+    height: 700px;
+}
+#banner{
+    color: white;
+    text-decoration: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1{
+    font: 4em bold;
+}
+p{
+    font-size: 3em;
+}
+#banner span{
+    font-size: 3em;
+}
+#banner section{
+    margin-left: 5%;
+}
+#bottom{
+    margin-top: 100px;
+    display:flex;
+}
+#bottom section{
+    border: solid black;
+    width: 21%;
+    margin: 0 2%;
+    height: 250px;
+    background-image: url(https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/1769b79a69c64e1a881fac9101054c23_9366/cloudfoam-pure-2.0--running-shoes.jpg);
+    background-size: cover;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
